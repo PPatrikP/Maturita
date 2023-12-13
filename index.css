@@ -1,0 +1,510 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+body{
+    margin: 0;
+    font-family: 'Krona One', sans-serif;
+    
+    
+}
+
+img{
+    width: 100px;
+}
+
+.mobile-menu{
+  display: none;
+}
+
+
+
+/* ------------- Section 1 ------------- */
+
+
+
+.section-1{
+    background-image: url(./Images/Section-back.png);
+    display: flex;
+    background-size: cover;
+    background-position: center center;
+    
+    
+}
+
+.side-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10rem;
+    align-items: center;
+    padding: 50px;
+    height: 90vh;
+   
+
+    background-color: rgba(255, 255, 255, 0.062);
+    backdrop-filter: blur(10px);
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+
+    position: fixed;
+    top: 0;
+
+   
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.singin-button{
+    background: white;
+    color: black;
+    padding: 25px 50px;
+    margin-top: 50px;
+    width: 100px;
+    border-radius: 150px;
+    text-align: center;
+
+}
+
+.main-content1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 250px;
+}
+
+span{
+    color: white;
+    text-align: center;
+}
+.motto{
+    font-size: 50px;
+    max-width: 1000px;
+    padding-left: 100px;
+    padding-top: 100px;
+    
+   
+ 
+}
+
+
+
+/* ------------- IMAGES SECTION 1 ------------- */
+
+.logo{
+    width: 100px;
+    padding-bottom: 50px;
+   
+    filter: invert(1);
+}
+
+
+
+
+.illus-1{
+    width: 700px;
+    padding-top: 70px;
+    padding-left: 500px;
+}
+
+
+
+
+
+
+
+
+
+/* ------------- SECTION 2 ------------- */
+
+.section-2{
+ 
+    background-color: #000531;
+  }
+
+h1{
+    margin: 0;
+    text-align: center;
+    color: white;
+    padding: 80px 0;
+    font-size: 30px;
+}
+
+
+
+.main-content2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.expertise{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    gap: 15px;
+}
+
+.support{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    gap: 15px;
+    
+}
+
+.success{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    
+}
+
+.success-text{
+    max-width: 250px;
+}
+
+#sec2-text{
+    font-size: 24px;
+    padding: 10px 0;
+    padding-bottom: 20px;
+}
+
+
+
+/* ------------- IMAGES SECTION 2 ------------- */
+
+.expertise-img{
+    padding-bottom: 100px;
+}
+
+.support-img{
+    width: 150px;
+}
+
+.success-img{
+    width: 150px;
+}
+
+
+@media only screen and (max-width: 1800px) {
+    .illus-1{
+        padding-left: 300px;
+    }
+}
+
+
+/* ------------- SECTION 3 ------------- */
+.section-3{
+    background-image: url(./Images/backhround_testimonials.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.pointer{
+    width: 1000px;
+    padding-top: 20px;
+    
+}
+.pointer-wrapper{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.quota-icon{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.quota-wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px ;
+    padding-bottom: 80px;
+    
+}
+
+button {
+    font-size: 7em;
+    height: 1.5em;
+    width: 1.5em;
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .testimonialwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .testimonial-container {
+    justify-content: center;
+  }
+  .wrapper button {
+    font-size: 8em;
+    height: 2.2em;
+    width: 2.2em;
+    margin: auto;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+
+  .testimonial-container img {
+
+    object-fit: cover;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 0px 100px 20px rgba(255, 0, 215, 1), 0px 0px 100px 80px rgba(0, 26, 255, 0.25)
+  }
+  .testimonial-container h3 {
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .quota-container {
+    display: flex;
+    width: 1000px;
+  }
+
+
+
+
+
+
+
+
+  /* ------------- SECTION 4 ------------- */
+
+
+  .section-4{
+    background-color: #330734;
+  }
+
+  .sec4-heading{
+    padding-bottom: 30px;
+  }
+
+  .info-wrapper{
+    display: flex;
+    justify-content: center;
+  }
+
+  .sec-3-info{
+    font-size: 16px;
+    width: 1030px;
+    
+  }
+
+
+  .section3-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0px;
+    padding: 0 100px;
+  }
+
+  .container-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h4{
+    font-size: 20px;
+    color: white;
+  }
+
+  .sec3-img{
+    width: 150px;
+  }
+
+  .container-text{
+   max-width: 400px;
+   
+  }
+
+  #practice{
+    padding-top: 200px;
+    padding-bottom: 150px;
+  }
+  
+  #learn{
+    margin-top: -200px;
+  }
+
+  #network{
+    padding-top: 200px;
+    padding-bottom: 150px;
+  }
+
+
+
+
+
+
+
+
+
+  /* ------------- SECTION 5 ------------- */
+.section-5{
+  background-color: #540138;
+  
+}
+
+.section5-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px; 
+  
+  
+}
+
+.section5-text{
+  width: 475px;
+  font-size: 20px;
+  
+}
+
+.choice{
+  width: 250px;
+}
+
+.button-wrapper{
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+  
+  
+
+}
+
+.section5-button{
+  position: relative;
+  background: 
+  linear-gradient(#540138, #540138) padding-box,
+  linear-gradient(60deg, #6728D0, #D93BDC) border-box;
+  border: 5px solid transparent;
+  border-radius: 40px;
+  padding: 25px 70px;
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  background-color: #000531;
+}
+
+h4{
+  margin: 0;
+}
+
+.footer-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 100px 0px;
+}
+
+#footer-logo{
+  padding: 0px 200px;
+}
+
+.resources{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.socials{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-socials{
+  width: 37px;
+}
+
+.copyright{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #989898;
+}
+
+.links{
+  color: #989898;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

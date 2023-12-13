@@ -1,0 +1,145 @@
+@media only screen and (max-width: 1680px){
+    /* header */
+
+    .side-menu{
+        
+        flex-direction: row;
+        justify-content: center;
+        width: 45%;
+        height: 5px;
+        border-radius: 150px;
+        padding: 40px;
+        
+
+        top: 20px;
+    }
+
+    .section-1{
+        justify-content: center;
+    }
+
+    nav{
+        flex-direction: row;
+        padding: 35px;
+        gap: 30px;
+
+    }
+
+    #nav-logo{
+        width: 50px;
+        padding: 0;
+    }
+
+    .singin-button{
+        margin: 0;
+        padding: 15px 20px;
+        font-size: 15px;
+    }
+
+    a {
+        font-size: 13px;
+    }
+
+    .main-content1{
+        padding-left: 0px;
+    }
+
+    .motto{
+        padding-left: 0px;
+    }
+    
+
+    /* .section-1 */
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+    
+    #nav-logo{
+        width: 35px;
+        padding: 0;
+    }
+
+    .singin-button{
+        margin: 0;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    a {
+        font-size: 10px;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 1020px){
+    nav{
+        display: none;
+    }
+
+    .singin-button{
+        display: none;
+    }
+
+
+
+
+    .mobile-menu[data-visible="false"]{
+        display: none;
+    }
+
+    .mobile-menu[data-visible="true"]{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        gap: 50px;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        background-color: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(10px);
+        border-radius: 150px;
+        padding: 100px 125px;
+
+        z-index: 1;
+    }
+
+    .side-menu[data-visible="false"] {
+        display: none;
+    }
+
+    .side-menu[data-visible="true"] {
+        
+        padding: 40px 25px;
+        width: 5%;
+        
+    }
+
+
+    #nav-logo{
+        width: 40px;
+       
+    }
+    
+    
+    
+
+    a {
+        font-size: 20px;
+        text-shadow: 2px 1px 5px black;
+    }
+    
+
+
+}
