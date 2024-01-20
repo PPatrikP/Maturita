@@ -3,7 +3,7 @@ body{
     margin: 0;
     font-family: 'Krona One', sans-serif;  
     background: linear-gradient(269deg, rgb(25, 12, 63) 30.71%, rgb(8, 20, 78) 116.61%);
-
+    box-sizing: border-box;
 
 }
 
@@ -138,6 +138,20 @@ p {
     box-shadow: 0px 0px 20px 10px #701194, 0px 0px 1px 3px #EB00CD;
 }
 
+.progress-1{
+    border-radius: 90px;
+    background: rgba(255, 255, 255, 0.08);
+
+    filter: blur(0.5px);
+    backdrop-filter: blur(10px);
+
+    display: flex;
+    align-items: center;
+}
+
+span{
+    color: white;
+}
 
 
 
