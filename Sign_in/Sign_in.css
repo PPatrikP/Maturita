@@ -62,6 +62,11 @@ background: linear-gradient(261deg, #B003CC -16.43%, #9E00FF -16.41%, #BD00FF 13
 }
 
 
+a{
+    font-size: 9px;
+    color: white;
+}
+
 
 
 
@@ -98,7 +103,7 @@ background: linear-gradient(261deg, #B003CC -16.43%, #9E00FF -16.41%, #BD00FF 13
 
     margin: auto;
     top: 50%;
-  transform: translate(0, 30%);
+  transform: translate(0, 50%);
 
     
 }
@@ -120,4 +125,12 @@ background: linear-gradient(261deg, #B003CC -16.43%, #9E00FF -16.41%, #BD00FF 13
 .form-wrapper{
     display: flex;
     flex-direction: column;
+}
+
+form .links{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px 150px;
+    
 }

@@ -26,37 +26,33 @@ img{
     display: flex;
     background-size: cover;
     background-position: center center;
+    justify-content: center;
     
     
 }
 
 .side-menu{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    width: 10rem;
     align-items: center;
-    padding: 50px;
-    height: 90vh;
+  
+    
    
 
     background-color: rgba(255, 255, 255, 0.062);
     backdrop-filter: blur(10px);
-    border-top-right-radius: 150px;
-    border-bottom-right-radius: 150px;
-
+    
+    border-radius: 150px;
     position: fixed;
-    top: 0;
+    top: 20px;
 
+   
    
     
 }
 
 nav{
     display: flex;
-    flex-direction: column;
-    gap: 40px;
-    padding: 50px;
     
     
 }
@@ -64,23 +60,25 @@ nav{
 a{
     text-decoration: none;
     color: white;
+    font-size: 12px;
 }
 
 .singin-button{
     background: white;
     color: black;
-    padding: 25px 50px;
-    margin-top: 50px;
+    padding: 15px 20px;
+    margin-right: 40px;
     width: 100px;
     border-radius: 150px;
     text-align: center;
+    font-size: 12px;
 
 }
 
 .main-content1{
     display: flex;
     flex-direction: column;
-    padding-left: 250px;
+    
 }
 
 span{
@@ -91,7 +89,7 @@ span{
     font-size: 50px;
     max-width: 1000px;
     padding-left: 100px;
-    padding-top: 100px;
+    padding-top: 170px;
     
    
  
@@ -102,8 +100,9 @@ span{
 /* ------------- IMAGES SECTION 1 ------------- */
 
 .logo{
-    width: 100px;
-    padding-bottom: 50px;
+    width: 50px;
+    margin: 20px;
+    margin-left: 40px;
    
     filter: invert(1);
 }
@@ -112,8 +111,8 @@ span{
 
 
 .illus-1{
-    width: 700px;
-    padding-top: 70px;
+    width: 650px;
+    padding-top: 50px;
     padding-left: 500px;
 }
 
