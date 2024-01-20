@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+body{
+    margin: 0;
+    font-family: 'Krona One', sans-serif;
+    background: linear-gradient(269deg, rgb(25, 12, 63) 30.71%, rgb(8, 20, 78) 116.61%);
+    
+    
+}
+
+input{
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.08);
+    width: 400px;
+    height: 40px;
+  
+    backdrop-filter: blur(20px);
+
+    border: none;
+    color: white;
+}
+
+span{
+    color: white;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    max-width: 125px;
+max-height: 50px;
+flex-shrink: 0;
+border-radius: 50px;
+background: linear-gradient(261deg, #B003CC -16.43%, #9E00FF -16.41%, #BD00FF 132.42%);
+    margin: 40px 0px;
+    padding: 15px 25px;
+    color: white;
+    border: none;
+
+    font-size: 10px;
+    font-family: 'Krona One', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo{
+    width: 70px;
+    padding-bottom: 50px;
+   
+    filter: invert(1);
+}
+
+
+
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 600px;
+    border-radius: 90px;
+    background: rgba(255, 255, 255, 0.08);
+
+    
+    backdrop-filter: blur(10px);
+
+    
+}
+
+
+.svg_wrapper{
+    
+}
+
+.wrapper .svg_wrapper{
+    align-self: flex-end;
+
+}
+
+.wrapper .button{
+    align-self: center;
+}
+
+
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+}
