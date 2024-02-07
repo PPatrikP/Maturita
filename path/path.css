@@ -2,14 +2,8 @@
 body{
     margin: 0;
     font-family: 'Krona One', sans-serif;  
-<<<<<<< HEAD
+
     background: linear-gradient(269deg, rgb(25, 12, 63) 30.71%, rgb(8, 20, 78) 116.61%);
-    /* background-image: url(../Images/2.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover; */
-=======
-    background: linear-gradient(269deg, rgb(25, 12, 63) 30.71%, rgb(8, 20, 78) 116.61%); 
->>>>>>> 22671976299854bb4a17bb83be6ec008eedbd97a
     box-sizing: border-box;
     color: white;
 }
