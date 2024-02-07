@@ -3,9 +3,6 @@ body{
     margin: 0;
     font-family: 'Krona One', sans-serif;  
     background: linear-gradient(269deg, rgb(25, 12, 63) 30.71%, rgb(8, 20, 78) 116.61%);
-    /* background-image: url(../Images/2.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover; */
     box-sizing: border-box;
     color: white;
     
@@ -13,6 +10,27 @@ body{
 
 img{
     width: 100px;
+    
+}
+
+h1 {
+    margin: 8px;
+}
+
+h2 {
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-size: 1.2em;
+    
+}
+
+.overview-text{
+   text-align: start;
+   font-size: .8em;
+   color: rgba(218, 218, 218, 0.849);
+    
 }
 
 
@@ -81,4 +99,37 @@ nav {
     box-shadow: 0px 0px 20px 10px #701194, 0px 0px 1px 3px #EB00CD;
 
    
+}
+
+
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.overview{
+    max-width: 800px;
+}
+
+
+.foundation-icon{
+    margin-top: 100px;
+}
+
+.line{
+    width: 800px;
+}
+
+.overview-wrapper{
+    text-align: center;
+    
+}
+
+.description-wrapper{
+    margin-left: 30px;
 }
