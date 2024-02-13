@@ -8,10 +8,7 @@ body{
     
 }
 
-img{
-    width: 100px;
-    
-}
+
 
 h1 {
     margin: 8px;
@@ -24,6 +21,12 @@ h2 {
     font-weight: 100;
     font-size: 1.2em;
     
+}
+
+h3{
+    font-size: 15px;
+    margin-left: 60px;
+    margin-top: 40px;
 }
 
 .overview-text{
@@ -108,6 +111,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     
 }
 
@@ -119,6 +123,7 @@ section{
 
 .foundation-icon{
     margin-top: 100px;
+    max-width: 100px;
 }
 
 .line{
@@ -133,3 +138,96 @@ section{
 .description-wrapper{
     margin-left: 30px;
 }
+
+
+.content-container{
+    background-color: rgba(255, 255, 255, 0.062);
+    backdrop-filter: blur(10px);
+
+    border-radius: 60px;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.178);
+    
+    margin-top: 80px;
+}
+
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.peter{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: 60px;
+}
+
+#peter-first{
+    margin-top: 30px;
+}
+
+#peter-last{
+    margin-bottom: 30px;
+}
+
+
+.content-line{
+    max-width: 550px;
+    
+}
+
+.course-icon{
+    max-width: 30px;
+}
+
+
+
+footer{
+    background-color: #000531;
+    margin-top: 100px;
+  }
+  
+  h4{
+    margin: 0;
+  }
+  
+  .footer-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 100px 0px;
+  }
+  
+  #footer-logo{
+    padding: 0px 200px;
+  }
+  
+  .resources{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .socials{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .logo-socials{
+    width: 37px;
+  }
+  
+  .copyright{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #989898;
+  }
+  
+  .links{
+    color: #989898;
+  }
